@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="AS.FoodPass.CADM.Core.DomainSoil">
+    <Position X="10.5" Y="7" Width="2" />
+    <Members>
+      <Field Name="_agronomicCategory" Hidden="true" />
+      <Field Name="_soilClass" Hidden="true" />
+    </Members>
+    <Type_identifier>
+      <HashCode>AAAAAQAAAAAIAAAAgAAQAAAgAAAAEAgAAAAAAAACAAA=</HashCode>
+      <FileName>DomainSoil.cs</FileName>
+    </Type_identifier>
+    <ShowAsAssociation>
+      <Property Name="Elements" />
+      <Property Name="Properties" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.Definitions.SoilElementsType">
+    <Position X="10" Y="4" Width="3" />
+    <Type_identifier>
+      <HashCode>AIAAAQAAAAIgAAAAAAAAAASAAAAIAAgAAAAMAAAAAAI=</HashCode>
+      <FileName>Definitions\SoilElementsType.cs</FileName>
+    </Type_identifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Cadmium" />
+      <Property Name="Lead" />
+      <Property Name="Magnesium" />
+      <Property Name="NitrogenMineral" />
+      <Property Name="Phosphorus" />
+      <Property Name="Potassium" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.Definitions.SoilPropertiesType">
+    <Position X="10" Y="12.5" Width="3" />
+    <Type_identifier>
+      <HashCode>AAEAAAAAQAQAAEAAAAIEAAAEAAAIAgAAAAAEgCAAAAA=</HashCode>
+      <FileName>Definitions\SoilPropertiesType.cs</FileName>
+    </Type_identifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Compaction" />
+      <Property Name="Conductivity" />
+      <Property Name="Graining" />
+      <Property Name="HydrolyticAcidity" />
+      <Property Name="OrganicMatter" />
+      <Property Name="pH" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.MeasurementDefinitions.CompactionMeasure">
+    <Position X="13.5" Y="15.5" Width="2" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\CompactionMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.MeasurementDefinitions.ConductivityMeasure">
+    <Position X="13.5" Y="10.5" Width="2" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\ConductivityMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.MeasurementDefinitions.GrainingMeasure">
+    <Position X="7.5" Y="15.5" Width="1.75" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\GrainingMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.MeasurementDefinitions.HydrolyticAcidityMeasure">
+    <Position X="7.25" Y="10.5" Width="2.25" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\HydrolyticAcidityMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.MeasurementDefinitions.OrganicMatterMeasure">
+    <Position X="10.5" Y="15.5" Width="2" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\OrganicMatterMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.MeasurementDefinitions.pHMeasure">
+    <Position X="10.75" Y="10.5" Width="1.5" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\pHMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.MeasurementDefinitions.CadmiumMeasure">
+    <Position X="13.5" Y="7" Width="1.75" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\CadmiumMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.MeasurementDefinitions.LeadMeasure">
+    <Position X="7.75" Y="4" Width="1.5" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\LeadMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.MeasurementDefinitions.MagnesiumMeasure">
+    <Position X="13.5" Y="2" Width="1.75" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\MagnesiumMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.MeasurementDefinitions.NitrogenMineralMeasure">
+    <Position X="7.25" Y="7" Width="2.25" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\NitrogenMineralMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.MeasurementDefinitions.PhosphorusMeasure">
+    <Position X="7.5" Y="2" Width="1.75" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\PhosphorusMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.MeasurementDefinitions.PotassiumMeasure">
+    <Position X="10.5" Y="2" Width="1.75" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\PotassiumMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

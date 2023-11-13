@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="AS.FoodPass.CADM.Core.DomainFertilization">
+    <Position X="15.5" Y="2.25" Width="2.5" />
+    <Members>
+      <Method Name="DomainFertilization" Hidden="true" />
+    </Members>
+    <Type_identifier>
+      <HashCode>AAQAAQAEQAAAAAAAEAAAAAAiQAgRAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>DomainFertilization.cs</FileName>
+    </Type_identifier>
+    <ShowAsAssociation>
+      <Property Name="AgricultureType" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Fertilizations" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.MeasurementDefinitions.FertilizationTreatment">
+    <Position X="10" Y="1.25" Width="2.75" />
+    <Members>
+      <Method Name="FertilizationTreatment" Hidden="true" />
+    </Members>
+    <Type_identifier>
+      <HashCode>AIAAAAABAAAIAgAEAAgAAAAAAAJAAAABQAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\FertilizationTreatment.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Enum Name="AS.FoodPass.CADM.Core.Definitions.AgricultureTypeEnum">
+    <Position X="19.25" Y="2.5" Width="1.75" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAIAgAAAAAAAAA=</HashCode>
+      <FileName>Definitions\AgricultureTypeEnum.cs</FileName>
+    </Type_identifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

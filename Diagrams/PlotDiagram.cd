@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="AS.FoodPass.CADM.Core.Plot">
+    <Position X="5.75" Y="5.5" Width="2.25" />
+    <Members>
+      <Method Name="Plot" Hidden="true" />
+    </Members>
+    <Type_identifier>
+      <HashCode>AAAAAAAAEAAAAAAAgAAAAAAwAAAAAAQAAAAAAAAAAAQ=</HashCode>
+      <FileName>Plot.cs</FileName>
+    </Type_identifier>
+    <ShowAsAssociation>
+      <Field Name="Agrometeorology" />
+      <Field Name="Agrotechnics" />
+      <Field Name="Fertilization" />
+      <Field Name="Soil" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.DomainAgrometeorology">
+    <Position X="10.25" Y="5" Width="2.5" />
+    <Type_identifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>DomainAgrometeorology.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.DomainAgrotechnics">
+    <Position X="0.5" Y="5.25" Width="3.25" />
+    <Type_identifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAgAAAAAAQQAAAAAAAAAAA=</HashCode>
+      <FileName>DomainAgrotechnics.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.DomainFertilization">
+    <Position X="5.25" Y="8.25" Width="3" />
+    <Type_identifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>DomainFertilization.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.DomainSoil">
+    <Position X="5.75" Y="1.25" Width="2.25" />
+    <Type_identifier>
+      <HashCode>AAAAAQAAAAAIAAAAgAAQAAAgAAAAEAgAAAAAAAACAAA=</HashCode>
+      <FileName>DomainSoil.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="AS.FoodPass.CADM.Core.DomainAgrometeorology">
+    <Position X="1.75" Y="1.25" Width="2.25" />
+    <Type_identifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>DomainAgrometeorology.cs</FileName>
+    </Type_identifier>
+    <ShowAsAssociation>
+      <Property Name="Atmosphere" />
+      <Property Name="Plant" />
+      <Property Name="Soil" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.Definitions.AtmosphereType">
+    <Position X="10.75" Y="9.25" Width="3" />
+    <Type_identifier>
+      <HashCode>AIAAAQCAIAAAUAAAAAAGAAAACABAAAAIAAAQAgSEAAA=</HashCode>
+      <FileName>Definitions\AtmosphereType.cs</FileName>
+    </Type_identifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Humidity" />
+      <Property Name="Precipitation" />
+      <Property Name="Pressure" />
+      <Property Name="RadiationPAR" />
+      <Property Name="RadiationTotal" />
+      <Property Name="Temperature" />
+      <Property Name="WindDirection" />
+      <Property Name="WindSpeed" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.Definitions.PlantType">
+    <Position X="10.75" Y="1" Width="3" />
+    <AssociationLine Name="LeafAreaIndex" Type="AS.FoodPass.CADM.Core.MeasurementDefinitions.LeafAreaIndexMeasure" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13" Y="2.873" />
+        <Point X="13" Y="6.116" />
+        <Point X="14.75" Y="6.116" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="NDVI" Type="AS.FoodPass.CADM.Core.MeasurementDefinitions.NDVIMeasure" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.45" Y="2.873" />
+        <Point X="13.45" Y="4.094" />
+        <Point X="14.75" Y="4.094" />
+      </Path>
+    </AssociationLine>
+    <Type_identifier>
+      <HashCode>AAAAAQABAAIAAAAAAAAAACAAAAAAABECAAAAAEAEAAA=</HashCode>
+      <FileName>Definitions\PlantType.cs</FileName>
+    </Type_identifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Greenness" />
+      <Property Name="LeafAreaIndex" />
+      <Property Name="LeafWetness" />
+      <Property Name="NDVI" />
+      <Property Name="Temperature" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.Definitions.SoilType">
+    <Position X="3.25" Y="5.25" Width="2.75" />
+    <Type_identifier>
+      <HashCode>AAAAAQAAAAAABAAAAAECAAAECAAAAgAAAAAAAAAEAAA=</HashCode>
+      <FileName>Definitions\SoilType.cs</FileName>
+    </Type_identifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Conductivity" />
+      <Property Name="Humidity" />
+      <Property Name="Salinity" />
+      <Property Name="Temperature" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.MeasurementDefinitions.ConductivityMeasure">
+    <Position X="2.75" Y="7.75" Width="2" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\ConductivityMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.MeasurementDefinitions.HumidityMeasure">
+    <Position X="6.5" Y="7.75" Width="1.75" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\HumidityMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.MeasurementDefinitions.SalinityMeasure">
+    <Position X="4.75" Y="7.75" Width="1.5" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\SalinityMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.MeasurementDefinitions.SoilTemperatureMeasure">
+    <Position X="7" Y="4" Width="2.75" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\SoilTemperatureMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.MeasurementDefinitions.AtmosphericPrecipitationMeasure">
+    <Position X="7.5" Y="14.5" Width="2.75" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\AtmosphericPrecipitationMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.Definitions.AtmosphericPressureMeasure">
+    <Position X="7.75" Y="11.5" Width="2.5" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\AtmosphericPressureMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.Definitions.RadiationPARMeasure">
+    <Position X="14.25" Y="12.5" Width="2" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\RadiationPARMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.Definitions.RadiationTotalMeasure">
+    <Position X="14.25" Y="14" Width="2" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\RadiationTotalMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.Definitions.TemperatureAtHeightMeasure">
+    <Position X="14.25" Y="8.5" Width="2.5" />
+    <Type_identifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\TemperatureAtHeightMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.Definitions.WindDirectionMeasure">
+    <Position X="8" Y="13" Width="2" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\WindDirectionMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.Definitions.WindSpeedMeasure">
+    <Position X="14.25" Y="10.5" Width="2.5" />
+    <Type_identifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\WindSpeedMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.MeasurementDefinitions.GreennessMeasure">
+    <Position X="14.75" Y="1" Width="1.75" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\GreennessMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.MeasurementDefinitions.LeafAreaIndexMeasure">
+    <Position X="14.75" Y="5.5" Width="2" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\LeafAreaIndexMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.MeasurementDefinitions.LeafWetnessMeasure">
+    <Position X="14.75" Y="2.5" Width="2" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\LeafWetnessMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.MeasurementDefinitions.NDVIMeasure">
+    <Position X="14.75" Y="4" Width="1.5" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\NDVIMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Class Name="AS.FoodPass.CADM.Core.MeasurementDefinitions.TemperatureMeasure">
+    <Position X="9.75" Y="4.25" Width="2.75" />
+    <Type_identifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementDefinitions\TemperatureMeasure.cs</FileName>
+    </Type_identifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
